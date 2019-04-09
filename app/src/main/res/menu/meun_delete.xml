@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/detele"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_edit"
+        android:title="@string/detele"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/detele"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="always" />
+
+</menu>
+
+<!-- android:showAsAction="ifRoom" ifRoom表示,如果有足够的控件，这个值会使菜单显示在ActionBar上-->
+<!--android:showAsAction="always" 这个值会使菜单显示在ActionBar上-->
